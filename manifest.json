@@ -1,0 +1,106 @@
+{
+  "_activities-25b03019.js": {
+    "file": "assets/activities-25b03019.js"
+  },
+  "_vendors-0122d703.js": {
+    "file": "assets/vendors-0122d703.js"
+  },
+  "assets/end.svg": {
+    "file": "assets/end-a91503f9.svg",
+    "src": "assets/end.svg"
+  },
+  "assets/github.svg": {
+    "assets": [
+      "assets/github-8c91f96c.svg"
+    ],
+    "file": "assets/github.svg-cc33bc3e.js",
+    "imports": [
+      "_vendors-0122d703.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/github.svg"
+  },
+  "assets/grid.svg": {
+    "assets": [
+      "assets/grid-f73acae3.svg"
+    ],
+    "file": "assets/grid.svg-47dd94eb.js",
+    "imports": [
+      "_vendors-0122d703.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/grid.svg"
+  },
+  "assets/start.svg": {
+    "file": "assets/start-2a9d06f3.svg",
+    "src": "assets/start.svg"
+  },
+  "assets/year_2021.svg": {
+    "assets": [
+      "assets/year_2021-772fc711.svg"
+    ],
+    "file": "assets/year_2021-5a78286f.js",
+    "imports": [
+      "_vendors-0122d703.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/year_2021.svg"
+  },
+  "assets/year_2022.svg": {
+    "assets": [
+      "assets/year_2022-9f17bcf4.svg"
+    ],
+    "file": "assets/year_2022-f9c268e2.js",
+    "imports": [
+      "_vendors-0122d703.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/year_2022.svg"
+  },
+  "assets/year_2023.svg": {
+    "assets": [
+      "assets/year_2023-86da054d.svg"
+    ],
+    "file": "assets/year_2023-04139f20.js",
+    "imports": [
+      "_vendors-0122d703.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/year_2023.svg"
+  },
+  "assets/year_2024.svg": {
+    "assets": [
+      "assets/year_2024-103f71af.svg"
+    ],
+    "file": "assets/year_2024-685fd389.js",
+    "imports": [
+      "_vendors-0122d703.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "assets/year_2024.svg"
+  },
+  "index.css": {
+    "file": "assets/index-481dc5ef.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "assets/index-481dc5ef.css"
+    ],
+    "dynamicImports": [
+      "assets/year_2021.svg",
+      "assets/year_2022.svg",
+      "assets/year_2023.svg",
+      "assets/year_2024.svg",
+      "assets/github.svg",
+      "assets/grid.svg"
+    ],
+    "file": "assets/index-e2e1afba.js",
+    "imports": [
+      "_vendors-0122d703.js",
+      "_activities-25b03019.js"
+    ],
+    "isEntry": true,
+    "src": "index.html"
+  }
+}

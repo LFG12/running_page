@@ -1,5 +1,5 @@
 import useActivities from '@/hooks/useActivities';
-import styles from './style.module.css';
+import styles from './style.module.scss';
 
 const RunMapButtons = ({ changeYear, thisYear }: { changeYear: (_year: string) => void, thisYear: string }) => {
   const { years } = useActivities();

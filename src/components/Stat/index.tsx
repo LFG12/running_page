@@ -1,4 +1,9 @@
+import { CSSProperties } from 'react';
 import { intComma } from '@/utils/utils';
+
+const divStyle: CSSProperties = {
+  fontWeight: '700',
+};
 
 interface IStatProperties {
   value: string | number;
@@ -8,18 +13,12 @@ interface IStatProperties {
   onClick?: () => void;
 }
 
-const Stat = ({
-  value,
-  description,
-  className = 'pb-2 w-full',
-  citySize,
-  onClick,
-}: IStatProperties) => (
+const Stat = ({ value, description, className = 'pb2 w-100', citySize, onClick }: IStatProperties) => (
   <div className={`${className}`} onClick={onClick}>
-    <span className={`text-${citySize || 5}xl font-bold italic`}>
+    <span className={`f${citySize || 1} fw9 i`} style={divStyle}>
       {intComma(value.toString())}
     </span>
-    <span className="text-lg font-semibold italic">{description}</span>
+    <span className="f3 fw6 i">{description}</span>
   </div>
 );
 

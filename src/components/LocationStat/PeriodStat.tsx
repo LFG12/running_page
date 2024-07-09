@@ -7,7 +7,7 @@ const PeriodStat = ({ onClick }: { onClick: (_period: string) => void }) => {
   const periodArr = Object.entries(runPeriod);
   periodArr.sort((a, b) => b[1] - a[1]);
   return (
-    <div className="cursor-pointer">
+    <div style={{ cursor: 'pointer' }}>
       <section>
         {periodArr.map(([period, times]) => (
           <Stat
